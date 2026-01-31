@@ -7,24 +7,24 @@ subtitle: <a href='https://www.uclm.es'>Universidad de Castilla-La Mancha</a>. C
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: true
   more_info: >
     <p>Edificio Infante Don Juan Manuel, Avda. de España, s/n</p>
     <p>02006 Albacete, Spain</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
-<!-- announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+# announcements:
+#   enabled: true
+#   scrollable: true
+#   limit: 5
 
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
--->
+# latest_posts:
+#   enabled: true
+#   scrollable: true
+#   limit: 3
+---
 
 I am a Computer Engineer and Researcher at the **Albacete Research Institute of Informatics (I3A)**, belonging to the **Universidad de Castilla-La Mancha (UCLM)**. I hold a **PhD in Advanced Information Technologies** (Cum Laude, December 2025), as well as a Master’s Degree (2021) and a Bachelor’s Degree (2020) in Computer Engineering from the same university.
 
