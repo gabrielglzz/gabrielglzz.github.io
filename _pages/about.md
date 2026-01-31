@@ -8,9 +8,6 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true
-  more_info: >
-    <p>Edificio Infante Don Juan Manuel, Avda. de España, s/n</p>
-    <p>02006 Albacete, Spain</p>
 
 selected_papers: true
 social: true
