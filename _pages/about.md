@@ -2,16 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.uclm.es'>Universidad de Castilla-La Mancha</a>. Computing Systems Dept. Albacete Research Institute of Informatics (I3A).
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Edificio Infante Don Juan Manuel, Avda. de España, s/n</p>
+    <p>02006 Albacete, Spain</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +26,15 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Computer Engineer and Researcher at the **Albacete Research Institute of Informatics (I3A)**, belonging to the **Universidad de Castilla-La Mancha (UCLM)** [1]. I hold a **PhD in Advanced Information Technologies** (Cum Laude, November 2025) [2], as well as a Master’s Degree (2021) and a Bachelor’s Degree (2020) in Computer Engineering from the same university [1].
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests focus on **High-Performance Computing (HPC)** interconnection networks and Data Centers [3]. My work aims to bridge the gap between theoretical design and real-world deployment, addressing critical challenges such as topology implementation, congestion control, and exascale architecture simulation.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My main scientific contributions include:
+*   **Topology Implementation:** I successfully deployed and evaluated the first known implementation of a **KNS (k-ary n-tree s-indirect) topology** in a real InfiniBand cluster (CELLIA), demonstrating its feasibility and cost-efficiency [4].
+*   **Congestion Control (CC):** I developed dynamic CC mechanisms based on **fine-grain monitoring** (using tools like LIMITLESS) to reduce network overreaction and Head-of-Line blocking [5], [6].
+*   **Simulation Frameworks:** I have extended the **SAURON** simulator to model next-generation architectures (such as **BXIv3**) and integrated it with **COSSIM** to simulate heterogeneous systems (RISC-V/ARM), contributing to the European **RED-SEA project** [7], [8].
+
+During my PhD, I completed international research stays at **CERN** (Geneva, Switzerland), modeling the Data Acquisition System (DAQ) for the ATLAS experiment [9], and at **FORTH** (Heraklion, Greece), working on advanced congestion control mechanisms [10].
+
+Currently, I am a researcher hired under the **Cátedra Chip** project (PERTE Chip / NextGenerationEU) [1], [11].
