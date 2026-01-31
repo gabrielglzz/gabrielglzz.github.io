@@ -14,7 +14,6 @@ profile:
 
 selected_papers: true
 social: true
-
 # announcements:
 #   enabled: true
 #   scrollable: true
@@ -32,9 +31,9 @@ My research interests focus on **High-Performance Computing (HPC)** interconnect
 
 My main scientific contributions include:
 
-* **Topology Implementation:** I successfully deployed and evaluated the first known implementation of a **KNS (k-ary n-tree s-indirect) topology** in a real InfiniBand cluster (CELLIA), demonstrating its feasibility and cost-efficiency.
-* **Congestion Control (CC):** I developed dynamic CC mechanisms based on **fine-grain monitoring** (using tools like LIMITLESS) to reduce network overreaction and Head-of-Line blocking.
-* **Simulation Frameworks:** I have extended the **SAURON** simulator to model next-generation architectures (such as **BXIv3**) and integrated it with **COSSIM** to simulate heterogeneous systems (RISC-V/ARM), contributing to the European **RED-SEA project**.
+- **Topology Implementation:** I successfully deployed and evaluated the first known implementation of a **KNS (k-ary n-tree s-indirect) topology** in a real InfiniBand cluster (CELLIA), demonstrating its feasibility and cost-efficiency.
+- **Congestion Control (CC):** I developed dynamic CC mechanisms based on **fine-grain monitoring** (using tools like LIMITLESS) to reduce network overreaction and Head-of-Line blocking.
+- **Simulation Frameworks:** I have extended the **SAURON** simulator to model next-generation architectures (such as **BXIv3**) and integrated it with **COSSIM** to simulate heterogeneous systems (RISC-V/ARM), contributing to the European **RED-SEA project**.
 
 During my PhD, I completed international research stays at **CERN** (Geneva, Switzerland), modeling the Data Acquisition System (DAQ) for the ATLAS experiment, and at **FORTH** (Heraklion, Greece), working on advanced congestion control mechanisms.
 

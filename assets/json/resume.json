@@ -80,9 +80,7 @@
       "startDate": "2024-10-10",
       "endDate": "2025-12-31",
       "summary": "Research contract under the 'Cátedra Chip' (PERTE Chip / NextGenerationEU). Focus on RISC-V architectures and interconnection networks.",
-      "highlights": [
-        "Funding Entity: Ministry of Digital Transformation and Civil Service."
-      ]
+      "highlights": ["Funding Entity: Ministry of Digital Transformation and Civil Service."]
     },
     {
       "name": "Universidad de Castilla-La Mancha (I3A)",
@@ -90,9 +88,7 @@
       "startDate": "2022-05-01",
       "endDate": "2024-10-10",
       "summary": "European Project H2020/EuroHPC. Development of simulation models for the BXIv3 architecture using SAURON and COSSIM simulators.",
-      "highlights": [
-        "Collaboration with Atos/Eviden, CEA, and ETH Zürich."
-      ]
+      "highlights": ["Collaboration with Atos/Eviden, CEA, and ETH Zürich."]
     },
     {
       "name": "Universidad de Castilla-La Mancha (I3A)",
@@ -100,9 +96,7 @@
       "startDate": "2021-03-17",
       "endDate": "2022-04-30",
       "summary": "Optimization of the design of the new interconnection network for the ATLAS experiment Data Acquisition System (DAQ) at CERN.",
-      "highlights": [
-        "Modeling InfiniBand, Ethernet, and RoCE networks for High-Luminosity LHC."
-      ]
+      "highlights": ["Modeling InfiniBand, Ethernet, and RoCE networks for High-Luminosity LHC."]
     }
   ],
   "publications": [
@@ -153,35 +147,17 @@
     {
       "name": "HPC Technologies",
       "level": "Expert",
-      "keywords": [
-        "InfiniBand",
-        "BXI",
-        "RoCE",
-        "Ethernet",
-        "OpenSM"
-      ]
+      "keywords": ["InfiniBand", "BXI", "RoCE", "Ethernet", "OpenSM"]
     },
     {
       "name": "Simulation & Modeling",
       "level": "Advanced",
-      "keywords": [
-        "OMNeT++",
-        "INET Framework",
-        "SAURON",
-        "COSSIM",
-        "VEF Traces"
-      ]
+      "keywords": ["OMNeT++", "INET Framework", "SAURON", "COSSIM", "VEF Traces"]
     },
     {
       "name": "Programming",
       "level": "Advanced",
-      "keywords": [
-        "C++",
-        "C",
-        "Python",
-        "R",
-        "Shell Scripting"
-      ]
+      "keywords": ["C++", "C", "Python", "R", "Shell Scripting"]
     }
   ],
   "languages": [
