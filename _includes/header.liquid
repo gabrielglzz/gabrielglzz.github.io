@@ -59,7 +59,20 @@
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
-            {% if p.nav and p.autogen == null %}
+            {% assign show_page = true %}
+            {% if p.permalink contains '/blog/' and site.posts | size == 0 %}
+              {% assign show_page = false %}
+            {% endif %}
+            {% if p.permalink contains '/projects/' and site.projects | size == 0 %}
+              {% assign show_page = false %}
+            {% endif %}
+            {% if p.permalink contains '/books/' and site.books | size == 0 %}
+              {% assign show_page = false %}
+            {% endif %}
+            {% if p.permalink contains '/news/' and site.news | size == 0 %}
+              {% assign show_page = false %}
+            {% endif %}
+            {% if p.nav and p.autogen == null and show_page %}
               {% if p.dropdown %}
                 {% assign has_active_child = false %}
                 {% for child in p.children %}
