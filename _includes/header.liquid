@@ -60,16 +60,20 @@
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
             {% assign show_page = true %}
-            {% if p.permalink contains '/blog/' and site.posts | size == 0 %}
+            {% assign posts_size = site.posts | size %}
+            {% assign projects_size = site.projects | size %}
+            {% assign books_size = site.books | size %}
+            {% assign news_size = site.news | size %}
+            {% if p.permalink contains '/blog/' and posts_size == 0 %}
               {% assign show_page = false %}
             {% endif %}
-            {% if p.permalink contains '/projects/' and site.projects | size == 0 %}
+            {% if p.permalink contains '/projects/' and projects_size == 0 %}
               {% assign show_page = false %}
             {% endif %}
-            {% if p.permalink contains '/books/' and site.books | size == 0 %}
+            {% if p.permalink contains '/books/' and books_size == 0 %}
               {% assign show_page = false %}
             {% endif %}
-            {% if p.permalink contains '/news/' and site.news | size == 0 %}
+            {% if p.permalink contains '/news/' and news_size == 0 %}
               {% assign show_page = false %}
             {% endif %}
             {% if p.nav and p.autogen == null and show_page %}
