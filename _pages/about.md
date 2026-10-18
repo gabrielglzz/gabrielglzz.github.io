@@ -15,7 +15,6 @@ announcements:
   enabled: true
   scrollable: true
   limit: 5
-
 # latest_posts:
 #   enabled: true
 #   scrollable: true
