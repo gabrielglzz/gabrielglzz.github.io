@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://gabrielglzz.github.io/sitemap.xml
+Sitemap: https://ggomezlo.es/sitemap.xml
