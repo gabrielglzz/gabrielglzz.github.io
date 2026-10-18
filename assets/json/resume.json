@@ -4,7 +4,7 @@
     "label": "Ph.D. in Advanced Information Technologies | HPC Researcher",
     "image": "",
     "email": "Gabriel.gomez@uclm.es",
-    "url": "https://www.ggomezlo.es",
+    "url": "https://ggomezlo.es",
     "summary": "Researcher specializing in High-Performance Computing (HPC) interconnection networks. My work focuses on the implementation of hybrid topologies (KNS), congestion control mechanisms based on fine-grain monitoring, and the simulation of exascale architectures (BXI, RISC-V). I hold a Ph.D. from the University of Castilla-La Mancha, with international research experience at CERN (Switzerland) and FORTH (Greece).",
     "location": {
       "address": "Edificio Infante Don Juan Manuel, Avda. de España, s/n",
@@ -21,7 +21,7 @@
       },
       {
         "network": "DBLP",
-        "username": "Gabriel Gomez-LLopez",
+        "username": "Gabriel Gomez-Lopez",
         "url": "https://dblp.org/pid/331/9206.html"
       },
       {
@@ -31,7 +31,7 @@
       },
       {
         "network": "GitHub",
-        "username": "ggomezlo",
+        "username": "gabrielglzz",
         "url": "https://github.com/gabrielglzz"
       },
       {
@@ -74,13 +74,32 @@
   ],
   "work": [
     {
+      "name": "Universidad de Castilla-La Mancha",
+      "position": "Assistant Professor (Profesor Ayudante Doctor)",
+      "url": "https://www.uclm.es",
+      "startDate": "2026-09-08",
+      "summary": "Department of Information Technologies and Systems (DTSI), Computer Architecture and Technology area. Talavera de la Reina campus.",
+      "highlights": []
+    },
+    {
+      "name": "Universitat Politècnica de València",
+      "position": "Postdoctoral Researcher",
+      "url": "https://www.upv.es",
+      "startDate": "2026-05-01",
+      "endDate": "2026-09-07",
+      "summary": "",
+      "highlights": []
+    },
+    {
       "name": "Universidad de Castilla-La Mancha (I3A)",
       "position": "Researcher - Cátedra Chip Project",
       "url": "https://www.i3a.uclm.es",
       "startDate": "2024-10-10",
       "endDate": "2025-12-31",
       "summary": "Research contract under the 'Cátedra Chip' (PERTE Chip / NextGenerationEU). Focus on RISC-V architectures and interconnection networks.",
-      "highlights": ["Funding Entity: Ministry of Digital Transformation and Civil Service."]
+      "highlights": [
+        "Funding Entity: Ministry of Digital Transformation and Civil Service."
+      ]
     },
     {
       "name": "Universidad de Castilla-La Mancha (I3A)",
@@ -88,7 +107,9 @@
       "startDate": "2022-05-01",
       "endDate": "2024-10-10",
       "summary": "European Project H2020/EuroHPC. Development of simulation models for the BXIv3 architecture using SAURON and COSSIM simulators.",
-      "highlights": ["Collaboration with Atos/Eviden, CEA, and ETH Zürich."]
+      "highlights": [
+        "Collaboration with Atos/Eviden, CEA, and ETH Zürich."
+      ]
     },
     {
       "name": "Universidad de Castilla-La Mancha (I3A)",
@@ -96,7 +117,9 @@
       "startDate": "2021-03-17",
       "endDate": "2022-04-30",
       "summary": "Optimization of the design of the new interconnection network for the ATLAS experiment Data Acquisition System (DAQ) at CERN.",
-      "highlights": ["Modeling InfiniBand, Ethernet, and RoCE networks for High-Luminosity LHC."]
+      "highlights": [
+        "Modeling InfiniBand, Ethernet, and RoCE networks for High-Luminosity LHC."
+      ]
     }
   ],
   "publications": [
@@ -147,17 +170,35 @@
     {
       "name": "HPC Technologies",
       "level": "Expert",
-      "keywords": ["InfiniBand", "BXI", "RoCE", "Ethernet", "OpenSM"]
+      "keywords": [
+        "InfiniBand",
+        "BXI",
+        "RoCE",
+        "Ethernet",
+        "OpenSM"
+      ]
     },
     {
       "name": "Simulation & Modeling",
       "level": "Advanced",
-      "keywords": ["OMNeT++", "INET Framework", "SAURON", "COSSIM", "VEF Traces"]
+      "keywords": [
+        "OMNeT++",
+        "INET Framework",
+        "SAURON",
+        "COSSIM",
+        "VEF Traces"
+      ]
     },
     {
       "name": "Programming",
       "level": "Advanced",
-      "keywords": ["C++", "C", "Python", "R", "Shell Scripting"]
+      "keywords": [
+        "C++",
+        "C",
+        "Python",
+        "R",
+        "Shell Scripting"
+      ]
     }
   ],
   "languages": [

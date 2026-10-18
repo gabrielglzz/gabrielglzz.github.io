@@ -2,12 +2,14 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Research projects and teaching tools I have developed.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [teaching]
 horizontal: false
 ---
+
+Looking for my research work? See my [publications]({{ '/publications/' | relative_url }}).
 
 <!-- pages/projects.md -->
 <div class="projects">

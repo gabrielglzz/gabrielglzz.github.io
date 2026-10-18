@@ -90,6 +90,8 @@
       <script defer src="{{ '/assets/js/wechat.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
     {% when 'whatsapp_number' %}
       <a href="https://wa.me/{{ social[1] }}" title="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+    {% when 'wos_researcher_id' %}
+      <a href="https://www.webofscience.com/wos/author/record/{{ social[1] }}" title="Web of Science"><i class="ai ai-clarivate"></i></a>
     {% when 'wikidata_id' %}
       <a href="https://www.wikidata.org/wiki/{{ social[1] }}" title="Wikidata"><i class="fa-solid fa-barcode"></i></a>
     {% when 'wikipedia_id' %}

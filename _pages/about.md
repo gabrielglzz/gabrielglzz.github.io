@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.uclm.es'>Universidad de Castilla-La Mancha</a>. Computing Systems Dept. Albacete Research Institute of Informatics (I3A).
+subtitle: <a href='https://www.uclm.es'>Universidad de Castilla-La Mancha</a>. Department of Information Technologies and Systems (DTSI), Talavera de la Reina campus. High-Performance Networks and Architectures group (<a href='https://www.i3a.uclm.es/raap/'>RAAP</a>), Albacete Research Institute of Informatics (I3A).
 
 profile:
   align: right
@@ -11,10 +11,10 @@ profile:
 
 selected_papers: true
 social: true
-# announcements:
-#   enabled: true
-#   scrollable: true
-#   limit: 5
+announcements:
+  enabled: true
+  scrollable: true
+  limit: 5
 
 # latest_posts:
 #   enabled: true
@@ -34,4 +34,4 @@ My main scientific contributions include:
 
 During my PhD, I completed international research stays at **CERN** (Geneva, Switzerland), modeling the Data Acquisition System (DAQ) for the ATLAS experiment, and at **FORTH** (Heraklion, Greece), working on advanced congestion control mechanisms.
 
-Currently, I am substitute professor for the subject Computer Networks in the Computer Engineering degree program in Albacete.
+Currently, I am an Assistant Professor (_Profesor Ayudante Doctor_) at the Universidad de Castilla-La Mancha, in the Department of Information Technologies and Systems (DTSI), Computer Architecture and Technology area, teaching in the Computer Engineering degree at the Talavera de la Reina campus.
